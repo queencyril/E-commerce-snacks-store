@@ -492,9 +492,7 @@ h3 {
   padding-right: 20px;
 } */
 
-.newsletter-input button{
-  margin-top: 1px;
-}
+
 
 .signup-btn {
   width: 18%;
@@ -576,6 +574,10 @@ h3 {
     height: 16px;
     margin-top: -0px;
     margin-left: 0;
+  }
+
+  .newsletter-input button{
+    margin-top: 1px;
   }
 
   .signup-btn{
