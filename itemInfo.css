@@ -142,7 +142,8 @@ ul li{
   .iteminfo img{
     object-fit: cover;
     width: 100%;
-    height: 50vh;
+    height: 48vh;
+    /* margin-top: 50px; */
   }
 
   .product-details h3{
