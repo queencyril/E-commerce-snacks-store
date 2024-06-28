@@ -1,0 +1,416 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>YemYem Snacks Store</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="cart.css ">
+    <link
+    href="https://cdn.jsdelivr.net/npm/toastify-js/src/toastify.min.css"
+    rel="stylesheet"
+  />
+  </head>
+
+  <body>
+    <div class="container">
+
+      <div class="header">
+        <div class="logo">
+          <a href="index.html"><h1><span>Y</span>em<span>Y</span>em</h1><img src="./images/last5.png" alt="" class="logo-icon"></a>
+        </div>
+
+        <div class="search-bar">
+          <input type="text" placeholder="Search" class="search-box">
+          <button class="search-btn"><img src="images/search1.png" alt=""></button>
+        </div>
+
+        <div class="cart">
+          <div class="cart-notification">
+          <a href="cart.html"><img src="images/cart2.png" alt=""></a>
+          <div class="notification-count js-cart-total">0</div>
+          </div>
+            <a href="#" class="abt">About</a>
+            <a href="#" class="help">Help</a>
+        </div>
+        
+      </div>
+
+      <!-- <div class="sidebar">
+        
+          <div class="cart-notification">
+          <a href="#"><img src="images/cart2.png" alt=""></a>
+          <div class="notification-count">0</div>
+          </div>
+            <a href="#" class="abt">About</a>
+            <a href="#" class="help">Help</a>
+        
+      </div> -->
+      <!-- <div class="cart container main-cart js-order-summary"> -->
+
+
+      <div class=" main-cart ">
+        <h3>Cart Item</h3>
+        <div class="cart-container">
+          
+         <div class="cart-content js-order-summary">
+         
+        </div>
+       
+        
+          <div class="cart-summary js-cart-summary">
+           
+        </div>  
+        <div class="return">
+          <p class="return-title"> Returns are easy</p>
+          <p class="return-para">Free returns within 3 days for ALL eligible items</p>
+          <p class="return-detail"><a href="">Details</a></p>
+        </div>
+      </div>      
+   </div>
+
+
+      
+      
+
+      
+
+      <!-- SMALL SCREEN -->
+      <section class="small-screen-container">
+
+        <div class="cart-summary1">
+            CART SUMMARY
+        </div>
+
+          <div class="subtotal1">
+            <div>
+              <p class="subtotal-title1">Subtotal</p>
+              <p class="subtotal-para1">Delivery fee not included yet.</p>
+              <p class="subtotal-para1">Quantity: 2</p>
+            </div>
+            
+            <div class="price2">
+              &#8358 350.00
+            </div>
+          </div>
+          
+          <div class="cart-summary1">
+            CART ITEM
+        </div>
+          
+        <div class="cartlist">
+          <div  class="cart-list1">
+            <div>
+              <img src="images/dbk3096.png" alt="much-iT">
+            </div>
+
+            <div>
+              <p class="item-title1">Munch iT cheesy snack</p>
+              <p class="item-summary1 summary1"><span>Seller:</span> Bakers Bakings</p>
+
+              <p  class="item-summary1"><span>Variation:</span> one pieces in Stock |</p>
+              
+              <p class="price">&#8358 350.00</p>
+            </div>
+          </div>
+
+            <div class="remove-items1">
+            <div class="del-item1">
+              REMOVE
+            </div>
+            <div class="btns1">
+              <button>
+                -
+              </button>
+              1
+              <button>+ </button>
+            </div>
+          
+        </div>
+
+        </div>
+
+      
+
+          <div>
+          <button class="checkout-btn">CHECKOUT (&#8358 350.00)</button>
+         </div>
+
+        <div class="return1">
+          <p class="return-title1"> Returns are easy</p>
+          <p class="return-para1">Free returns within 3 days for ALL eligible items <a href="">Details</a></p>
+        </div>
+
+      </div>
+    </section>     
+
+       <!-- Popular Collection -->
+       <div>
+        <h3>Recommended for you</h3>
+       
+      <div class="item-container">
+        <div class="items">
+          <div class="display-items">
+            <img src="images/mimi chinchin.png" alt="" class="display-img">
+          </div>
+  
+          <div class="item-info">
+            <p class="item-name">MUNCH iT</p>
+          <p class="item-price">&#8358 250.00 </p>
+
+          <button class="add-btn">ADD TO CART</button>
+        </div>       
+        </div>
+    
+        <div class="items">
+          <div class="display-items">
+            <img src="images/1.png" alt="" class="display-img">
+          </div>
+  
+          <div class="item-info">
+            <p class="item-name">MUNCH iT</p>
+          <p class="item-price">&#8358 250.00 </p>
+
+          <button class="add-btn">ADD TO CART</button>
+        </div>       
+        </div>
+  
+        <div class="items">
+          <div class="display-items">
+            <img src="images/dbk3096.png" alt="" class="display-img">
+          </div>
+  
+          <div class="item-info">
+            <p class="item-name">MUNCH iT</p>
+          <p class="item-price">&#8358 250.00 </p>
+
+          <button class="add-btn">ADD TO CART</button>
+        </div>       
+        </div>
+  
+        <div class="items">
+          <div class="display-items">
+            <img src="images/digestive-coaster_lgmbqt.png" alt="" class="display-img">
+          </div>
+  
+          <div class="item-info">
+            <p class="item-name">MUNCH iT</p>
+          <p class="item-price">&#8358 250.00 </p>
+
+          <button class="add-btn">ADD TO CART</button>
+        </div>       
+        </div>
+  
+        <div class="items">
+          <div class="display-items">
+            <img src="images/dbk3096.png" alt="" class="display-img">
+          </div>
+  
+          <div class="item-info">
+            <p class="item-name">MUNCH iT</p>
+          <p class="item-price">&#8358 250.00 </p>
+
+          <button class="add-btn">ADD TO CART</button>
+        </div>       
+        </div>
+  
+        <div class="items">
+          <div class="display-items">
+            <img src="images/digestive-coaster_lgmbqt.png" alt="" class="display-img">
+          </div>
+  
+          <div class="item-info">
+            <p class="item-name">MUNCH iT</p>
+          <p class="item-price">&#8358 250.00 </p>
+
+          <button class="add-btn">ADD TO CART</button>
+        </div>       
+        </div>
+      </div>
+      </div>
+
+ <!-- You may also like -->
+      <div>
+        <h3>You may also like</h3>
+       
+      <div class="item-container">
+        <div class="items">
+          <div class="display-items">
+            <img src="images/mimi chinchin.png" alt="" class="display-img">
+          </div>
+  
+          <div class="item-info">
+            <p class="item-name">MUNCH iT</p>
+          <p class="item-price">&#8358 250.00 </p>
+
+          <button class="add-btn">ADD TO CART</button>
+        </div>       
+        </div>
+    
+        <div class="items">
+          <div class="display-items">
+            <img src="images/1.png" alt="" class="display-img">
+          </div>
+  
+          <div class="item-info">
+            <p class="item-name">MUNCH iT</p>
+          <p class="item-price">&#8358 250.00 </p>
+
+          <button class="add-btn">ADD TO CART</button>
+        </div>       
+        </div>
+  
+        <div class="items">
+          <div class="display-items">
+            <img src="images/dbk3096.png" alt="" class="display-img">
+          </div>
+  
+          <div class="item-info">
+            <p class="item-name">MUNCH iT</p>
+          <p class="item-price">&#8358 250.00 </p>
+
+          <button class="add-btn">ADD TO CART</button>
+        </div>       
+        </div>
+  
+        <div class="items">
+          <div class="display-items">
+            <img src="images/digestive-coaster_lgmbqt.png" alt="" class="display-img">
+          </div>
+  
+          <div class="item-info">
+            <p class="item-name">MUNCH iT</p>
+          <p class="item-price">&#8358 250.00 </p>
+
+          <button class="add-btn">ADD TO CART</button>
+        </div>       
+        </div>
+  
+        <div class="items">
+          <div class="display-items">
+            <img src="images/dbk3096.png" alt="" class="display-img">
+          </div>
+  
+          <div class="item-info">
+            <p class="item-name">MUNCH iT</p>
+          <p class="item-price">&#8358 250.00 </p>
+
+          <button class="add-btn">ADD TO CART</button>
+        </div>       
+        </div>
+  
+        <div class="items">
+          <div class="display-items">
+            <img src="images/digestive-coaster_lgmbqt.png" alt="" class="display-img">
+          </div>
+  
+          <div class="item-info">
+            <p class="item-name">MUNCH iT</p>
+          <p class="item-price">&#8358 250.00 </p>
+
+          <button class="add-btn">ADD TO CART</button>
+        </div>       
+        </div>
+      </div>
+      </div>
+
+       <!-- Newsletter -->
+       <section class="news-container">
+
+        <div class="newsletter-logo">
+          <h1><span>Y</span>em<span>Y</span>em<img src="./images/last5.png" alt="" class="logo-icon"></h1>
+        </div>
+
+        <div class="newsletter-title">
+      <h4>NEW TO <i> <span>Y</span>em<span>Y</span>em?</i></h4>
+      <p>
+        Subscribe to our newsletter to get updates on our latest offers!
+      </p>
+    
+
+      <!-- <input type="email" placeholder="  Enter Your Email..." class="search-box "> -->
+      <div class="newsletter-input news-bar" >
+      
+        <img src="images/email.jpg" alt="">
+        
+
+      <input type="email" placeholder="  Enter Your Email..." class="search-box ">
+      
+      <button class="search-btn  signup-btn">Sign up</button>
+    </div>
+
+  </div>
+
+  <div class="download-app">
+    <h4>DOWNLOAD <span>Y</span>em<span>Y</span>em FREE APP</h4>
+    <P>Get access to exclusive offers!</P>
+    <div class="app-icons">
+      <img src="images/gp.png" alt="1st pic" />
+      <img src="images/apple.png" alt="2nd pic" class="apple-app-icon" />
+    </div>
+  </div>
+  </section>
+
+    <!-- Footer -->
+
+<footer class="footer-container">
+ 
+  <div>
+  <h4>Contact</h4>
+  <p><strong>Address:</strong> Even Estate, Badore Ajah, Lagos.</p>
+  <p><strong>Phone:</strong>(+234)9156080037</p>
+  <p><strong>Hours:</strong>8:00am - 6:00pm, Mon - Sat</p>
+
+  <div class="followus">
+    <h4>Follow us</h4>
+          <div class="follow-us">
+            <a href="#" class="fb-icon"><img src="images/fb.jpg" /></a>
+            <a href="#"><img src="images/linkedin.jpg" /></a>
+            <a href="#"><img src="images/twitter.png" /></a>
+            <a href="#"><img src="images/instagram.png" /></a>
+          </div>
+  </div>
+</div>
+
+<div class="about">
+  <h4>About</h4>
+    <a href="#">About us</a>
+    <a href="#">Delivery Information</a>
+    <a href="#">Privacy Policy</a>
+    <a href="#">Terms & Conditions</a>
+    <a href="#">Contact Us</a>
+</div>
+
+<div class="my-acct">
+  <h4>My Account</h4>
+    <a href="#">Sign In</a>
+    <a href="#">View Cart</a>
+    <a href="#">My Wishlist</a>
+    <a href="#">Track My Order</a>
+    <a href="#">Help</a>
+</div>
+
+<div class="payment-method">
+  <h4>Payment Methods</h4>
+    <div>
+      <a href="#"><img src="images/Mastercard-Logo.webp" /></a>
+      <a href="#"><img src="images/visacard.webp" /></a>
+      <a href="#"><img src="images/verve.png" /></a>
+      <a href="#"><img src="images/opay.png" /></a>
+      <a href="#"><img src="images/Glovo_logo.png" /></a>
+        </div>
+</div>
+
+
+<div class="copyright">
+  <p>All Rights Reserved @ 2024, <span>Y</span>em<span>Y</span>em</p>
+</div>
+</footer>
+      
+
+<script type="module" src="script/checkout.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/toastify-js"></script>
+  </body>
+
+  </html>
+  
