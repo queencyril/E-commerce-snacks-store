@@ -109,3 +109,18 @@
   cursor: pointer;
   text-decoration: underline;
 }
+
+
+@media (max-width: 432px){
+  .placeOrder-container{
+    display: block;
+    
+  }
+}
+
+@media (max-width: 1024px)  and (min-width: 431px) {
+  .placeOrder-container{
+    display: block;
+    
+  }
+}
