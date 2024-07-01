@@ -6,16 +6,14 @@
     <title>YemYem Snacks Store</title>
     <link rel="stylesheet" href="placeOrder.css" />
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="cart.css">
   </head>
 
   <body>
     <div class="container">
       <div class="header">
         <div class="logo">
-          <a href="#"
-            ><h1><span>Y</span>em<span>Y</span>em</h1>
-            <img src="./images/last5.png" alt="" class="logo-icon"
-          /></a>
+          <a href="index.html"><h1><span>Y</span>em<span>Y</span>em</h1><img src="./images/last5.png" alt="" class="logo-icon"></a>
         </div>
 
           <div class="placeOrder">
@@ -63,7 +61,7 @@
               <p>Delivery between 16 July and 22 July.</p>
             </div>
 
-            <h3 class="modify-cart"><span>MODIFY CART</span></h3>
+            <h3 class="modify-cart"><a href="index.html"><span>MODIFY CART</span></a></h3>
           </div>
 
 
@@ -84,12 +82,37 @@
            -->
         </div>
         
-        <div>
-          order summary
-        
-        <p>By proceeding, you are automatically accepting the Terms & Conditions</p>
+        <div class="order-summary-container">
+         
+            <div class="customer-address-container customer-address-container2">
+              <div class="customer-address">
+                <div>Order summary</div>
+              </div>
+              <div class="order-summary">
+                <div>
+                  <p>Item total (3)</p>
+                  <p>Delivery fees</p>
+                  <p>Customs fee</p>
+                </div>
+                <div class="order-summary-paragraph">
+                  <p>₦ 27,300</p>
+                  <p>₦ 3,000</p>
+                  <p>₦ 2,850</p>
+                </div>
+              </div>
+              <div class="order-summary">
+                <div class="order-summary-paragraph">
+                  <p >Total</p>
+                </div>
+                <div class="order-summary-paragraph">₦ 33,150</div>
+              </div>
+              <div>
+                <button  class="checkout-btn">CONFIRM ORDER</button>
+              </div>
+            </div>
+            <h5 class="termsandconditions">By proceeding, you are automatically accepting the <span>Terms & Conditions</span></h5>
       </div>
-      </div>
+
 
       <h5 class="go-back"><span> &#60 Go back & continue shopping</span></h5>
 

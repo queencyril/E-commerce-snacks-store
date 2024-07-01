@@ -24,8 +24,13 @@ export function paymentSummary(){
                   &#8358 ${productPrice}
                 </div>
               </div>
-              <button class="checkout-btn">CHECKOUT (&#8358 ${productPrice})</button>
+              <button class="checkout-btn"><a href='placeOrder.html'>CHECKOUT (&#8358 ${productPrice})</a></button>
             </div>
+              <div class="return">
+            <p class="return-title"> Returns are easy</p>
+            <p class="return-para">Free returns within 3 days for ALL eligible items</p>
+            <p class="return-detail"><a href="">Details</a></p>
+          </div>
   `;
 
   document.querySelector('.js-cart-summary').innerHTML = paymentSummaryHTML
