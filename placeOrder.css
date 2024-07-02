@@ -1,24 +1,37 @@
-.placeOrder h2{
+.header2 {
+  max-width: 100%;
+  height: 55px;
+
+  position: fixed;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  z-index: 2px;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: rgb(15, 15, 15);
+}
+
+.placeOrder h2 {
   font-size: 24px;
   text-align: center;
-  margin-top: -16px;
-  margin-bottom: 0;
+  margin-top: -20px;
 }
 
 .placeOrder-cart {
   margin-top: 20px;
 }
 
-.placeOrder-cart a{
+.placeOrder-cart a {
   text-decoration: none;
   font-size: 18px;
   color: rgba(246, 252, 223, 0.644);
   margin-right: 26px;
-  
 }
 
-
-.placeOrder-container{
+.placeOrder-container {
   margin-left: 4%;
   line-height: 12px;
   padding: 20px;
@@ -28,19 +41,18 @@
   row-gap: 30px;
 }
 
-.customer-address-container{
+.customer-address-container {
   width: 90%;
   justify-items: center;
   background: rgba(94, 92, 92, 0.089);
   padding: 20px;
   margin-top: 20px;
   line-height: 18px;
-  border-radius: 10px; 
-  height: fit-content; 
-  
+  border-radius: 10px;
+  height: fit-content;
 }
 
-.customer-address{
+.customer-address {
   display: grid;
   grid-template-columns: 6fr 1fr;
   column-gap: 20px;
@@ -50,14 +62,14 @@
   font-size: 16px;
 }
 
-.customer-address-container h3{
+.customer-address-container h3 {
   margin-left: 0;
   font-size: 14px;
   font-weight: 600;
   margin-bottom: 0;
 }
 
-.customer-address-container p{
+.customer-address-container p {
   margin-left: 0;
   font-size: 12px;
   color: rgba(255, 255, 255, 0.842);
@@ -65,35 +77,34 @@
   line-height: 18px;
 }
 
-.delivery-details{
+.delivery-details {
   border: 1px solid rgba(255, 255, 255, 0.11);
   border-radius: 4px;
   margin: 8px;
   padding: 8px;
 }
 
-.modify-cart{
+.modify-cart {
   text-align: center;
   cursor: pointer;
 }
 
-.modify-cart a{
+.modify-cart a {
   text-decoration: none;
   font-size: 16px;
 }
 
-.go-back{
+.go-back {
   margin-top: 0;
   cursor: pointer;
   margin-left: 20px;
 }
 
-.customer-address-container2{
+.customer-address-container2 {
   height: 35%;
 }
 
-
-.order-summary{
+.order-summary {
   display: grid;
   grid-template-columns: 7fr 2fr;
   column-gap: 20px;
@@ -104,16 +115,16 @@
   margin-bottom: 8px;
 }
 
-.order-summary p{
+.order-summary p {
   font-size: 15px;
-  font-weight:lighter;
+  font-weight: lighter;
 }
 
-.order-summary-paragraph p{
+.order-summary-paragraph p {
   font-weight: bold;
 }
 
-.termsandconditions{
+.termsandconditions {
   text-align: center;
   margin-top: 6px;
   font-size: 12px;
@@ -121,76 +132,93 @@
   margin-left: 26px;
 }
 
-.termsandconditions span:hover{
+.termsandconditions span:hover {
   cursor: pointer;
   text-decoration: underline;
 }
 
-
-@media (max-width: 432px){
-  .placeOrder-container{
+@media (max-width: 488px) {
+  .placeOrder-container {
     display: block;
     margin: 0;
     padding: 0px;
-    
   }
 
-  .placeOrder h2{
-    font-size: 22px;
-    text-align: center;
-    padding-bottom: 10px;
-    background:  rgb(15, 15, 15);
-   
+  .placeOrder {
+  margin-top: -20px;
   }
 
-  .cart a {
-    margin: 0 12px;
-    font-size: 14px;
-    display: block;
-    color: red;
+
+  .header2 {
+    max-width: 100%;
+    height: 55px;
+    position: fixed;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    z-index: 2px;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
   }
 
-  .header {
-    height: 10px;
-    display: block;
-    margin: 0;
-    padding-bottom: 0px;
-    /* flex-direction: row; */
-  }
 
-  .placeOrder-cart {
-    float: right;
-    margin-top: -40px;
-  }
-  
-  .placeOrder-cart a{
+
+  .placeOrder-cart a {
     text-decoration: none;
     font-size: 18px;
     color: rgba(246, 252, 223, 0.644);
     margin-right: 10px;
-    
   }
 
-  .go-back{
+  .go-back {
     margin-top: 18px;
-   
   }
 
-  .placeOrder h2{
+  .placeOrder h2 {
     margin-top: 20px;
   }
 }
 
-@media (max-width: 1024px)  and (min-width: 431px) {
-  .placeOrder-container{
+@media (max-width: 1024px) and (min-width: 431px) {
+  .placeOrder-container {
     display: block;
     margin-right: 0;
     padding: 0px;
     font-size: 22px;
     text-align: center;
     padding-bottom: 10px;
-    background:  rgb(15, 15, 15);
+    background: rgb(15, 15, 15);
   }
 
+  .placeOrder {
+    margin-top: -20px;
+    }
   
+  
+    .header2 {
+      max-width: 100%;
+      height: 55px;
+      position: fixed;
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between;
+      z-index: 2px;
+      top: 0;
+      left: 0;
+      right: 0;
+      bottom: 0;
+    }
+
+    .logo a{
+      font-size: 12px;
+      margin-left: 16px;
+      margin-top: -10px;
+      margin-bottom: 0;
+    }
+  
+    .logo span {
+      font-size: 25px;
+    }
 }
