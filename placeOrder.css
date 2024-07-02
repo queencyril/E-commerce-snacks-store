@@ -85,6 +85,7 @@
 .go-back{
   margin-top: 0;
   cursor: pointer;
+  margin-left: 20px;
 }
 
 .customer-address-container2{
@@ -166,6 +167,11 @@
     color: rgba(246, 252, 223, 0.644);
     margin-right: 10px;
     
+  }
+
+  .go-back{
+    margin-top: 18px;
+   
   }
 }
 
