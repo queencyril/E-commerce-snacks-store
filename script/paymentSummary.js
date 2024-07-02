@@ -24,7 +24,7 @@ export function paymentSummary(){
                   &#8358 ${productPrice}
                 </div>
               </div>
-              <button class="checkout-btn"><a href='placeOrder.html'>CHECKOUT (&#8358 ${productPrice})</a></button>
+              <a href='placeOrder.html'><button class="checkout-btn">CHECKOUT (&#8358 ${productPrice})</button></a>
             </div>
               <div class="return">
             <p class="return-title"> Returns are easy</p>

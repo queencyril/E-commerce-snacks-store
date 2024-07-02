@@ -144,6 +144,7 @@
   border: none;
   color: white;
   font-weight: bold;
+  cursor: pointer;
 }
 
 .checkout-btn a{

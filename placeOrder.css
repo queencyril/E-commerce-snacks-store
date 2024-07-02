@@ -1,5 +1,20 @@
 .placeOrder h2{
-  font-size: 22px;
+  font-size: 24px;
+  text-align: center;
+  margin-top: -16px;
+  margin-bottom: 0;
+}
+
+.placeOrder-cart {
+  margin-top: 20px;
+}
+
+.placeOrder-cart a{
+  text-decoration: none;
+  font-size: 18px;
+  color: rgba(246, 252, 223, 0.644);
+  margin-right: 26px;
+  
 }
 
 
@@ -114,6 +129,42 @@
 @media (max-width: 432px){
   .placeOrder-container{
     display: block;
+    margin: 0;
+    padding: 0px;
+    
+  }
+
+  .placeOrder h2{
+    font-size: 22px;
+    text-align: center;
+    padding-bottom: 10px;
+    background:  rgb(15, 15, 15);
+   
+  }
+
+  .cart a {
+    margin: 0 12px;
+    font-size: 14px;
+    display: block;
+    color: red;
+  }
+
+  .header {
+    height: 30px;
+    display: block;
+    margin: 0;
+    /* flex-direction: row; */
+  }
+
+  .placeOrder-cart {
+    margin-top: 0px;
+  }
+  
+  .placeOrder-cart a{
+    text-decoration: none;
+    font-size: 18px;
+    color: rgba(246, 252, 223, 0.644);
+    margin-right: 10px;
     
   }
 }
@@ -121,6 +172,13 @@
 @media (max-width: 1024px)  and (min-width: 431px) {
   .placeOrder-container{
     display: block;
-    
+    margin-right: 0;
+    padding: 0px;
+    font-size: 22px;
+    text-align: center;
+    padding-bottom: 10px;
+    background:  rgb(15, 15, 15);
   }
+
+  
 }
