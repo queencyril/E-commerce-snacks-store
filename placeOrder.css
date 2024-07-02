@@ -144,6 +144,10 @@
     padding: 0px;
   }
 
+  .placeOrder-cart{
+    margin-top: 12px;
+  }
+
   .placeOrder {
   margin-top: -20px;
   }
@@ -209,6 +213,10 @@
       left: 0;
       right: 0;
       bottom: 0;
+    }
+
+    .placeOrder-cart{
+      margin-top: 12px;
     }
 
     .logo a{
