@@ -186,6 +186,22 @@
   .container{
     overflow: hidden;
   }
+
+  .cart2{
+    margin-top: -44px;
+    float: right;
+  }
+  .cart2 img {
+    height: 24px;
+    margin-left: 100px;
+    
+  }
+
+  .cart2 a {
+    margin: 0 12px;
+    font-size: 14px;
+    
+  }
   
   .cart-container{
     display: block;
@@ -312,23 +328,7 @@
     display: none;
   }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+  
 
   /*.cart-container{
     display: none;
@@ -488,3 +488,152 @@
   
   
 } 
+
+
+@media (max-width: 1024px) and (min-width: 415px) {
+  .container{
+    overflow: hidden;
+  }
+
+  .cart2{
+    margin-top: 0px;
+    float: right;
+  }
+  .cart2 img {
+    height: 24px;
+    margin-left: 100px;
+    
+  }
+
+  .cart2 a {
+    margin: 0 12px;
+    font-size: 14px;
+    
+  }
+  
+  .cart-container{
+    display: block;
+    
+  }
+  
+  .cart-content{
+    height: fit-content;
+    
+  }
+  
+  .cart-page{
+    
+    padding: 0 20px;
+    background: rgba(94, 92, 92, 0.089);
+    width: 98%;
+    height: 70%;
+  }
+  
+  .main-cart h3{
+    font-size: 18px;
+    margin-left: 0px;
+    padding: 10px;
+  }
+  
+  .cart-list{
+    display: grid;
+    grid-template-columns: 1fr 18fr 6fr;
+    column-gap: 12px;
+    row-gap: 30px;
+    
+  }
+  
+  .cart-list img{
+    width: 16vw;
+    height: 10vh;
+    margin: 20px;
+    margin-left: -10px;
+  }
+  
+  .cart-list .item-title{
+    margin-top: 26px;
+    font-size: 16px;
+    line-height: 8px;
+  }
+  
+  
+  .price{
+    margin-top: 10px;
+    font-size: 17px;
+    margin-right: 20px;
+  }
+
+  
+  .del-item{
+    font-size: 14px;
+  }
+
+  .cart-add .btns{
+    display: flex;
+    margin-top: -10px;
+    padding: 10px;
+  }
+  
+ .btns span{
+  color: white;
+  font-size: 16px;
+  margin-top: 20px;
+ }
+  
+ .btns button{
+  padding: 8px 10px 8px 8px;
+ }
+  
+  .cart-summary-title{
+    margin: 10px;
+    font-size: 18px;
+  
+  }
+  
+
+  
+  .subtotal-title{
+    font-size: 14px;
+    margin-left: -20px;
+    line-height: 28px;
+  }
+  
+  .subtotal-para{
+    font-size: 12px;
+    margin-left: -20px;
+  }
+  
+  
+  
+  .checkout-btn{
+    font-size: 16px;
+  }
+  
+  .return{
+    margin-top: 38px;
+    
+  }
+  
+  .return-title{
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom:  18px;
+  }
+  
+  .return-para{
+    font-size: 12px;
+    line-height: 8px;
+    margin-bottom: -10px;
+  }
+  
+  .return-detail a{
+    font-size: 12px;
+    color: rgba(128, 255, 0, 0.479);
+    
+  }
+  
+  .small-screen-container{
+    display: none;
+  }
+
+}
