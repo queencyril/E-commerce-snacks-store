@@ -151,14 +151,16 @@
   }
 
   .header {
-    height: 30px;
+    height: 10px;
     display: block;
     margin: 0;
+    padding-bottom: 0px;
     /* flex-direction: row; */
   }
 
   .placeOrder-cart {
-    margin-top: 0px;
+    float: right;
+    margin-top: -40px;
   }
   
   .placeOrder-cart a{
@@ -172,6 +174,10 @@
   .go-back{
     margin-top: 18px;
    
+  }
+
+  .placeOrder h2{
+    margin-top: 20px;
   }
 }
 
